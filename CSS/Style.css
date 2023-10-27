@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    text-align: center;
+    font-family: 'Roboto Condensed', Arial, sans-serif ;
+    background-image: url(https://mobicare.co.za/_Webmoduledata/Images/Thumb/R.jpg);
+
+}
+ul :is(li){
+    border-right: 2px solid ;
+    font-size: 21px;
+    font-weight: bold;
+    
+
+} 
+:hover(li){
+    text-decoration: red;
+
+}
+.row{
+    margin-top: 3rem;
+}
