@@ -3,25 +3,60 @@
 *::before{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 body{
     text-align: center;
     font-family: 'Roboto Condensed', Arial, sans-serif ;
-    background-image: url(https://mobicare.co.za/_Webmoduledata/Images/Thumb/R.jpg);
+    background-image: url(https://mobicare.co.za/_Webmoduledata/Images/Thumb/R.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: auto minmax(100%, 100vh) auto; 
 
 }
+
+
 ul :is(li){
+    padding: 15px;
+    
     border-right: 2px solid ;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
     
 
 } 
-:hover(li){
-    text-decoration: red;
+.nav-link :hover(a){
 
+   color: #e51010;
 }
+
+
 .row{
-    margin-top: 3rem;
+    margin-top: 8rem;
+    height: 100px;
 }
+footer{
+    background-color: #171515fc;
+    height: 5rem;
+}
+/*medical*/
+.container{
+    background: none
+}
+.newcontent{
+    margin-top: 5.5rem;
+}
+:is(p){
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif
+
+    
+    
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
